@@ -20,7 +20,7 @@ public class Main {
 
         Atleta a1 = new Atleta();
         a1.setNome("Ramon");
-        a1.setIdade(31);
+        a1.setIdade(30);
         a1.setDataNascimento(dataNascimento);
         a1.setMatricula("iron102030");
         a1.setDatahora(LocalDateTime.now());
@@ -49,7 +49,7 @@ public class Main {
 
 
         SimpleDateFormat formatoa3 = new SimpleDateFormat("dd/MM/yyyy");
-        Date dataNascimentoa3 = formato.parse("9/09/1989");
+        Date dataNascimentoa3 = formato.parse("09/09/1989");
         Atleta a3 = new Atleta();
         a3.setNome("Thiago");
         a3.setIdade(29);
